@@ -1,0 +1,177 @@
+body{
+    margin: 10px;
+  overflow: hidden;}
+
+ #cabecalho{
+    background-color: #e49aa7;
+    height: 120px;
+    width: 100%;
+    top: 0px;
+    position:absolute;
+  }
+input{
+    position: absolute;
+    width: 450px;
+    height: 33px;
+    margin: 0px;
+    background: #EFA0AE;
+    text-align: start;
+    border-radius: 20px;}
+#bola1{
+        position: absolute;
+        width: 493px;
+        height: 493px;
+        left: 70%;
+        top: 80px;
+        border-radius: 100%;
+        background: rgba(255, 217, 224, 0.63);}
+#bola2{
+        position: absolute;
+        width: 693px;
+        height: 693px;
+        left: 50px;
+        top: 151px;
+        border-radius: 100%;
+        background: rgba(255, 217, 224, 0.63);}
+  
+  #logo2{width: 350px;
+    height: 80px;}
+    
+  #logo{
+  background-color: #EFA0AE;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  margin-left: -8px;
+  position: absolute;}
+  
+  #pesquisa{
+  background-color: #c17884;
+  height: 50px;
+  width: 100%;
+  top: 80px;
+  margin-left: -8px;
+  position: absolute;}
+
+  #posicaoBOT{
+    margin-left: 7px;
+    width: 99%;
+    height: 64px;
+  }
+
+  #botao {
+    margin-left: 148px;
+    background-color: #c17884;
+    width: 250px;
+    height: 45px;
+    position: relative;
+    top: 2.5px;
+    font-family: 'anticslab';
+    left: 78px;
+    text-align: center;
+    font-size: 1.40em;
+    color: rgb(255, 222, 222);
+    font-family: 'anticslab';
+    text-decoration: none;
+    border: none;
+    border-radius: 0px;
+  }
+  
+  #botao:hover {
+    background-color: #eea1ae;
+  }
+  #botao:active {
+    background-color: #d08995;
+  }
+
+#reta{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 600px;
+    top: 160px;
+    border-radius: 12px;
+    background: #e49aa7;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    border: none;
+}
+#cancel{
+  position: absolute;
+  border: none;
+  width: 150px;
+  color: white;
+  text-align: center;
+  left: 1350px;
+  top: 700px;
+}
+#cancel:hover {
+  background-color: #eea1ae;
+}
+#cancel:active {
+  background-color: #d08995;
+}
+
+#no{
+    top: 250px;
+    left: 400px;
+    width: 710px;
+    border: none;
+}
+
+input::placeholder{
+  color: white;
+}
+
+#da{
+  margin-top: -70px;
+  margin-left: 800px;
+  width: 300px;
+  color: white;
+  text-align: justify;
+  border: none;
+  position: absolute;
+  
+}
+
+.custom-input::before {
+  content: "Consultas do dia: ";
+  color: white;
+  text-align: justify;
+}
+
+#ho{
+  margin-top: -70px;
+  margin-left: 390px;
+  width: 300px;
+  color: white;
+  text-align: justify;
+  border: none;
+  position: absolute;
+}
+
+.custom-imputho::before {
+  content: "Horario da consulta: ";
+  color: white;
+  text-align: justify;
+}
+#mo{
+  margin-top: 380px;
+  margin-left: 430px;
+}
+textarea{
+  height: 300px;
+  width: 600px;
+  background: #EFA0AE;
+  border-radius: 12px;
+  resize: none;
+  border: none;
+  position: absolute;
+  text-align: justify;
+}
+textarea::placeholder{
+  color: white;
+}
+
+
