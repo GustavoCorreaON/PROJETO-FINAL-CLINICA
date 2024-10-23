@@ -1,6 +1,6 @@
 <?php
 
-require_once '../models/Book.php';
+require_once '../models/model.php';
 
 class CadastroAdm {
 
