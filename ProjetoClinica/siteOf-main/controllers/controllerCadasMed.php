@@ -2,7 +2,7 @@
 
 require_once '../models/Book.php';
 
-class BookController {
+class CadastroMed {
 
     public function showForm() {
         // Exibe o formulário de cadastro de livros
