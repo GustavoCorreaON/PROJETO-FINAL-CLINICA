@@ -2,11 +2,11 @@
 
 require_once '../models/Book.php';
 
-class BookController {
+class CadastroAdm {
 
     public function showForm() {
         // Exibe o formulário de cadastro de livros
-        require_once '../views/book_form.php';
+        require_once '../views/html/Cadministrador.html';
     }
 
 
@@ -21,4 +21,5 @@ class BookController {
         $confirmeemailclinica = $_POST['confirmeemailclinica'];
         $senhaclinica = $_POST['senhaclinica'];
         $confirmesenhaclinica = $_POST['confirmesenhaclinica'];
-    }}
+    }
+}
