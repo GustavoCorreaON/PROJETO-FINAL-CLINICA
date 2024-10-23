@@ -13,6 +13,9 @@ class CadastroAdm {
 
     public function dados() {
         // Recebe dados do formulário
+        $plano = $_POST['planosimounao'];
+        $qual = $_POST['qualplano'];
+        $sexo = $_POST['femoumasc'];
         $nome = $_POST['nomecompleto'];
         $cpf = $_POST['cpf'];
         $email = $_POST['email'];
