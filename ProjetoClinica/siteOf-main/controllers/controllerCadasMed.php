@@ -21,7 +21,7 @@ class CadastroMed {
         $senha = $_POST['senha'];
         $datanascimento = $_POST['datanascimento'];
         $emailclinica = $_POST['emailclinica'];
-        $confirmeemailclinica = $_POST['confirmeemailclinica'];
+        $confirmeemailclinica = $_POST['confiremailclinica'];
         $senhaclinica = $_POST['senhaclinica'];
-        $confirmesenhaclinica = $_POST['confirmesenhaclinica'];
+        $confirmesenhaclinica = $_POST['confirsenhaclinica'];
     }}
