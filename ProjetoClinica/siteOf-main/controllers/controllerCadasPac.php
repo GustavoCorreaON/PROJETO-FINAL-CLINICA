@@ -23,10 +23,9 @@ class CadastroPac {
         $grauparentes = $_POST['graudeparentesco'];
         $nomepaciente = $_POST['nomedopaciente'];
         $cpfpaciente = $_POST['cpfdopaciente'];
+        $numerocontat = $_POST['numeroparacontato'];
         $email = $_POST['email'];
-        $emailclinica = $_POST['emailclinica'];
-        $confirmeemailclinica = $_POST['confirmeemailclinica'];
         $senhaclinica = $_POST['senhaclinica'];
-        $confirmesenhaclinica = $_POST['confirmesenhaclinica'];
+        $datanascimentopac = $_POST['datanascimentopaciente'];
     }
 }
