@@ -2,7 +2,7 @@
 
 class Database{
     private $host = 'localhost';
-    private $dbname = 'sp_medical_group';
+    private $db_name = 'sp_medical_group';
     private $username = 'root';
     private $password = 'root';
     public $conn;

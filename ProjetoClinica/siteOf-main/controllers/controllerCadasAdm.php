@@ -5,15 +5,13 @@ require_once '../model/model.php';
 class CadastroAdm {
 
     public function showForm() {
-        // Exibe o formulário de cadastro de livros
         require_once '../views/html/Cadministrador.html';
     }
 
 
 
-    public function dados() {
-        // Recebe dados do formulário
-        $nome = $_POST['nomecompleto'];
+    public function saveAdm() {
+        $nomecompleto = $_POST['nomecompleto'];
         $cpf = $_POST['cpf'];
         $email = $_POST['email'];
         $datanascimento = $_POST['datanascimento'];
@@ -21,11 +19,17 @@ class CadastroAdm {
         $confirmeemailclinica = $_POST['confirmeemailclinica'];
         $senhaclinica = $_POST['senhaclinica'];
         $confirmesenhaclinica = $_POST['confirmesenhaclinica'];
-    }
-}
 
-function (){
-    if(nomecompleto.value){
+
+        $salvar = new Salvar();
+        $salvar->nomecompleto = $nomecompleto;
+        $salvar->cpf = $cpf;
+        $salvar->email = $email;
+        $salvar->datanascimento = $datanascimento;
+        $salvar->emailclinica = $emailclinica;
+        $salvar->confirmeemailclinica = $confirmeemailclinica;
+        $salvar->senhaclinica = $senhaclinica;
+        $salvar->confirmesenhaclinica = $confirmesenhaclinica;
 
     }
 };
