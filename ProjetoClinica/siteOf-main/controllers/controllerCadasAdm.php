@@ -23,3 +23,9 @@ class CadastroAdm {
         $confirmesenhaclinica = $_POST['confirmesenhaclinica'];
     }
 }
+
+function (){
+    if(nomecompleto.value){
+        
+    }
+}
