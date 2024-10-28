@@ -46,16 +46,16 @@ input{
     }
   
     #botao {
-      margin-left: 148px;
+      margin-left: 135px;
       background-color: #c17884;
-      width: 250px;
+      width: 200px;
       height: 45px;
       position: relative;
       top: 2.5px;
       font-family: 'anticslab';
-      left: 78px;
+      left: 5px;
       text-align: center;
-      font-size: 1.40em;
+      font-size: 1.35em;
       color: rgb(255, 222, 222);
       font-family: 'anticslab';
       text-decoration: none;
@@ -69,6 +69,7 @@ input{
     #botao:active {
       background-color: #d08995;
     }
+         
   
     #retaP{
       background-color: #ee96a6;
