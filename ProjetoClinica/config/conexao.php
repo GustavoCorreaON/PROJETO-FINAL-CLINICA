@@ -1,13 +1,21 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "sp_medical_group";
+class Database{
+    private $host = 'localhost';
+    private $dbname = 'sp_medical_group';
+    private $username = 'root';
+    private $password = 'root';
+    public $conn;
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+    public function getConnection(){
+        $this->conn = null;
+    
 
-if ($conn->connect_error) {
-    die("Falha na conexão: " . $conn->connect_error);
+    try {
+        $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
+        $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch (PDOException $exception){
+        echo "Connection error: " . $exception->getMessage();
+    }
 }
-
+}
