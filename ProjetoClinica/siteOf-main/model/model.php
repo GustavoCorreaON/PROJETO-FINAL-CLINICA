@@ -4,7 +4,7 @@ require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/config/conexao.php';
 
 class Salvar {
     private $conn;
-    private $table_name = "salvar";
+    private $table_name = "adm";
 
     public $nomecompleto;
     public $cpf;
@@ -21,7 +21,7 @@ class Salvar {
     }
 
     public function save(){
-        $query = "INSERT INTO " . $this->table_name . " (nomecompleto, cpf, email, datanascimento, emailclinica, confirmeemailclinica, senhaclinica, confirmesenhaclinica) 
+        $query = "INSERT INTO" . $this->table_name . " (nomecompleto, cpf, email, datanascimento, emailclinica, confirmeemailclinica, senhaclinica, confirmesenhaclinica) 
         VALUES (:nomecompleto, :cpf, :email, :datanascimento, :emailclinica, :confirmeemailclinica, :senhaclinica, :confirmesenhaclinica)";
         $stmt = $this->conn->prepare($query);
 
