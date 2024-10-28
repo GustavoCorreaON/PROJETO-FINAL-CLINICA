@@ -6,6 +6,7 @@ input{
   background: #EFA0AE;
   text-align: start;
   border-radius: 20px;}
+
   textarea{
     height: 250px;
     width: 550px;
@@ -20,13 +21,17 @@ input{
     h2{color: rgb(255, 222, 222);
     font-size: 1.55em;
     font-family: 'anticslab';}
+
     h3{color: rgb(0, 0, 0);
         font-size: 1.2em;
         font-family: 'anticslab';}
+
     p{color: rgb(0, 0, 0);
         font-size: 0.95em;
         font-family: 'anticslab';}
+
     body{overflow-x: hidden;}
+
 #bola1{position: absolute;
     width: 511px;
     height: 511px;
@@ -243,16 +248,16 @@ input{
   position:absolute;}
          
   #botao {
-    margin-left: 148px;
+    margin-left: 135px;
     background-color: #c17884;
-    width: 250px;
+    width: 200px;
     height: 45px;
     position: relative;
     top: 2.5px;
     font-family: 'anticslab';
-    left: 78px;
+    left: 5px;
     text-align: center;
-    font-size: 1.40em;
+    font-size: 1.35em;
     color: rgb(255, 222, 222);
     font-family: 'anticslab';
     text-decoration: none;
@@ -266,3 +271,4 @@ input{
   #botao:active {
     background-color: #d08995;
   }
+       
