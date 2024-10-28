@@ -26,6 +26,6 @@ class CadastroAdm {
 
 function (){
     if(nomecompleto.value){
-        
+
     }
-}
+};
