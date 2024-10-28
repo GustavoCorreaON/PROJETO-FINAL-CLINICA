@@ -32,7 +32,7 @@ class CadastroAdm {
         $adm->confirmesenhaclinica = $confirmesenhaclinica;
 
 
-        if(adm->save()){
+        if(Adm->save()){
             header(header: 'Location /');//redireciona para a página de listagem
         }else{
             echo "Erro";
@@ -44,4 +44,5 @@ class CadastroAdm {
 
         require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/views/controllerCadasAdm';
     }
-};
+}
+}
