@@ -2,7 +2,7 @@
 
 require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/config/conexao.php';
 
-class pacientes {
+class paciente {
     private $conn;
     private $table_name = "pacientes";
 
@@ -23,7 +23,7 @@ class pacientes {
         $this->conn = $database->getConnection();
     }
 
-    public function save() {
+    public function cadastrar() {
         $query = "INSERT INTO " . $this->table_name . " (nome_responsavel, cpf_responsavel, contato_responsavel, email_responsavel, senha_responsavel, data_nascimento_responsavel, 
             nome_completo_crianca, cpf_crianca, data_nascimento_crianca, sexo_crianca, numero_carteirinha, plano_crianca) 
             VALUES (:nome_responsavel, :cpf_responsavel, :contato_responsavel, :email_responsavel, :senha_responsavel, :data_nascimento_responsavel, 
