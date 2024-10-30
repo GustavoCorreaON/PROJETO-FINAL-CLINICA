@@ -30,17 +30,24 @@ class pacientes {
             :nome_completo_crianca, :cpf_crianca, :data_nascimento_crianca, :sexo_crianca, :numero_carteirinha, :plano_crianca)";
         $stmt = $this->conn->prepare($query);
 
-        $stmt->bindParam(':title', $this->title);
-        $stmt->bindParam(':author', $this->author);
-        $stmt->bindParam(':publication_year', $this->publication_year);
-        $stmt->bindParam(':genre', $this->genre);
-        $stmt->bindParam(':price', $this->price);
-
+        $stmt->bindParam(':nome_responsavel', $this->nome_responsavel);
+        $stmt->bindParam(':cpf_responsavel', $this->cpf_responsavel);
+        $stmt->bindParam(':contato_responsavel', $this->contato_responsavel);
+        $stmt->bindParam(':email_responsavel', $this->email_responsavel);
+        $stmt->bindParam(':senha_responsavel', $this->senha_responsavel);
+        $stmt->bindParam(':data_nascimento_responsavel', $this->data_nascimento_responsavel);
+        $stmt->bindParam(':nome_completo_crianca', $this->nome_completo_crianca);
+        $stmt->bindParam(':cpf_crianca', $this->cpf_crianca);
+        $stmt->bindParam(':data_nascimento_crianca', $this->data_nascimento_crianca);
+        $stmt->bindParam(':sexo_crianca', $this->sexo_crianca);
+        $stmt->bindParam(':numero_carteirinha', $this->numero_carteirinha);
+        $stmt->bindParam(':plano_crianca', $this->plano_crianca);
         if ($stmt->execute()) {
             return true;
         }
 
         return false;
+        
     }
 
     public function getAll() {
