@@ -21,7 +21,7 @@ class CadastroAdm {
         $confirmesenhaclinica = $_POST['confirmesenhaclinica'];
 
 
-        $adm = new Adm();
+        $adm = new Salvar();
         $adm->nomecompleto = $nomecompleto;
         $adm->cpf = $cpf;
         $adm->email = $email;
@@ -32,17 +32,18 @@ class CadastroAdm {
         $adm->confirmesenhaclinica = $confirmesenhaclinica;
 
 
-        if(Adm->save()){
+        if($adm->save()){
             header(header: 'Location /');//redireciona para a página de listagem
         }else{
             echo "Erro";
         }
 
-        function listAdm(){
-        $adm = new ADM();
-        $adm = $adm->getAll();
+}
 
-        require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/views/controllerCadasAdm';
-    }
+public function listAdm(){
+    $adm = new Salvar();
+    $adm = $adm->getAll();
+
+    require_once '../views/';
 }
 }
