@@ -96,3 +96,71 @@ p{color: rgb(0, 0, 0);
         #botao:active {
           background-color: #d08995;
         }
+
+        select{
+          position: absolute;
+          width: 150px;
+          height: 33px;
+          margin: 0px;
+          background: #EFA0AE;
+          text-align: start;
+          border-radius: 20px;}
+
+          input{
+            position: absolute;
+            width: 450px;
+            height: 30px;
+            margin: 0px;
+            background: #EFA0AE;
+            text-align: start;
+            border-radius: 20px;}
+
+          .opcoes-consulta{
+            position: absolute;
+            margin-top: 230px;
+          }
+/*
+          tr{
+            font-size: x-large;
+            font-family: monospace;
+            width: 450px;
+            height: 30px;
+            position: absolute;
+            background: #f0c9d0;
+            text-align: start;
+            border-radius: 5px;
+          }
+*/
+tr{
+  font-size: x-large;
+  font-family: monospace;
+  text-align: start;
+
+}
+table, th, td{
+  border-collapse:collapse ;
+  border: 2px solid #b8737e;
+  background-color: #efa0ae30;
+  padding: 5px;
+  width: 500px;
+  
+}
+
+th{
+  background-color: #d08995cb;
+}
+          #pesquisar {
+            display: inline-block;
+            background-color: #EFA0AE;
+            height: 30px;
+            width: 100px;
+            border-radius: 12px;
+            position: absolute;
+            top: 50px;
+            left: 80px;
+            text-align: center;
+            font-family: 'anticslab';
+            font-size: small;
+            text-decoration: none;}
+            #pesquisar:hover {background-color: #df8393;}
+          #pesquisar:active {background-color: #c17884;}
