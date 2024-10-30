@@ -2,7 +2,7 @@
 
 class Database {
     private $host = 'localhost';
-    private $db_name = 'cadastropac';
+    private $db_name = 'livraria_db';
     private $username = 'root';
     private $password = 'root';
     public $conn;
