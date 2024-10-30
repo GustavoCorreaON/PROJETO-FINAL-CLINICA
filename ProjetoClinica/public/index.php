@@ -3,20 +3,18 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/controllers/controllerCadasAdm.php';
+require_once '../siteOf-main/controllers/controllerCadasAdm.php';
 
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request){
-    case '/':
-    case '/index':
-    case '/index.php':
+    case 'PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/public':
         $controller = new CadastroAdm();
         $controller->showForm();
         break;
-    case '/saveAdm':
+    case 'PROJETO-FINAL-CLINICA/saveAdm':
         $controller = new CadastroAdm();
-        $controller->saveAdm();
+        $controller->listAdm();
         break;
     default:
         http_response_code(404);
