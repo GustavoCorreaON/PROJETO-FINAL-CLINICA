@@ -49,4 +49,3 @@ class Salvar {
         return $stmt->FetchAll(PDO::FETCH_ASSOC);
     }
 }
->>>>>>> ea103fe4ae06535e725a004e69f5e3f4656fdb3d
