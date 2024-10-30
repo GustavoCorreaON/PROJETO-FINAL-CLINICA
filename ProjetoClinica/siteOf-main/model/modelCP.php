@@ -1,6 +1,6 @@
 <?php
 
-require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/config/conexao.php';
+require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/config/conexao.php';
 
 class pacientes {
     private $conn;
@@ -47,7 +47,7 @@ class pacientes {
         }
 
         return false;
-        
+
     }
 
     public function getAll() {
