@@ -1,24 +1,33 @@
 <?php
 
-require_once '../config/database.php';
+require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/config/conexao.php';
 
-class Book {
+class pacientes {
     private $conn;
     private $table_name = "pacientes";
 
-    public $title;
-    public $author;
-    public $publication_year;
-    public $genre;
-    public $price;
-
+    public $nome_responsavel;
+    public $cpf_responsavel;
+    public $contato_responsavel;
+    public $email_responsavel;
+    public $senha_responsavel;
+    public $data_nascimento_responsavel;
+    public $nome_completo_crianca;
+    public $cpf_crianca;
+    public $data_nascimento_crianca;
+    public $sexo_crianca;
+    public $numero_carteirinha;
+    public $plano_crianca;
     public function __construct() {
         $database = new Database();
         $this->conn = $database->getConnection();
     }
 
     public function save() {
-        $query = "INSERT INTO " . $this->table_name . " (title, author, publication_year, genre, price) VALUES (:title, :author, :publication_year, :genre, :price)";
+        $query = "INSERT INTO " . $this->table_name . " (nome_responsavel, cpf_responsavel, contato_responsavel, email_responsavel, senha_responsavel, data_nascimento_responsavel, 
+            nome_completo_crianca, cpf_crianca, data_nascimento_crianca, sexo_crianca, numero_carteirinha, plano_crianca) 
+            VALUES (:nome_responsavel, :cpf_responsavel, :contato_responsavel, :email_responsavel, :senha_responsavel, :data_nascimento_responsavel, 
+            :nome_completo_crianca, :cpf_crianca, :data_nascimento_crianca, :sexo_crianca, :numero_carteirinha, :plano_crianca)";
         $stmt = $this->conn->prepare($query);
 
         $stmt->bindParam(':title', $this->title);
