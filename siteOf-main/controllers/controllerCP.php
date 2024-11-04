@@ -1,6 +1,6 @@
 <?php
 
-require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/model/modelCP.php';
+require_once '../model/modelCP.php';
 
 class CpacienteController {
     public function showForm() {
@@ -22,6 +22,8 @@ class CpacienteController {
         $sexo_crianca = $_POST ['sexo_crianca'];
         $numero_carteirinha = $_POST['numero_carteirinha'];
         $plano_crianca = $_POST['plano_crianca'];
+        $grau_parentesco = $_POST['grau_parentesco'];
+        $qual_plano = $_POST ['qual_plano'];
 
         // Cria um novo paciente
         $paciente = new Paciente();
@@ -36,11 +38,13 @@ class CpacienteController {
         $paciente->data_nascimento_crianca = $data_nascimento_crianca;
         $paciente->sexo_crianca = $sexo_crianca;
         $paciente->numero_carteirinha = $numero_carteirinha;
-        $paciente->plano_crianca = $plano_crianca;
+        $paciente->plano_crianca = $plano_crianca; 
+        $paciente->grau_parentesco = $grau_parentesco; 
+        $paciente->qual_plano = $qual_plano;
 
         if ($paciente->cadastrar()) {
             // Redireciona para a página de listagem (você pode implementar isso)
-            echo "Cadastro realizado com sucesso!";
+            header('Location: /Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/list');
             // header('Location: /meu_projeto/listar-pacientes'); // Exemplo de redirecionamento
         } else {
             echo "Erro ao cadastrar o paciente!";

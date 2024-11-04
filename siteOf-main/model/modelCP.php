@@ -1,8 +1,8 @@
 <?php
 
-require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/config/conexao.php';
+require_once '../config/conexao.php';
 
-class paciente {
+class Paciente {
     private $conn;
     private $table_name = "pacientes";
 
@@ -18,6 +18,9 @@ class paciente {
     public $sexo_crianca;
     public $numero_carteirinha;
     public $plano_crianca;
+    public $grau_parentesco;
+    public $qual_plano;
+
     public function __construct() {
         $database = new Database();
         $this->conn = $database->getConnection();
@@ -25,9 +28,9 @@ class paciente {
 
     public function cadastrar() {
         $query = "INSERT INTO " . $this->table_name . " (nome_responsavel, cpf_responsavel, contato_responsavel, email_responsavel, senha_responsavel, data_nascimento_responsavel, 
-            nome_completo_crianca, cpf_crianca, data_nascimento_crianca, sexo_crianca, numero_carteirinha, plano_crianca) 
+            nome_completo_crianca, cpf_crianca, data_nascimento_crianca, sexo_crianca, numero_carteirinha, plano_crianca, grau_parentesco, qual_plano) 
             VALUES (:nome_responsavel, :cpf_responsavel, :contato_responsavel, :email_responsavel, :senha_responsavel, :data_nascimento_responsavel, 
-            :nome_completo_crianca, :cpf_crianca, :data_nascimento_crianca, :sexo_crianca, :numero_carteirinha, :plano_crianca)";
+            :nome_completo_crianca, :cpf_crianca, :data_nascimento_crianca, :sexo_crianca, :numero_carteirinha, :plano_crianca, :grau_parentesco, :qual_plano)";
         $stmt = $this->conn->prepare($query);
 
         $stmt->bindParam(':nome_responsavel', $this->nome_responsavel);
@@ -42,6 +45,8 @@ class paciente {
         $stmt->bindParam(':sexo_crianca', $this->sexo_crianca);
         $stmt->bindParam(':numero_carteirinha', $this->numero_carteirinha);
         $stmt->bindParam(':plano_crianca', $this->plano_crianca);
+        $stmt->bindParam(':grau_parentesco', $this->grau_parentesco);
+        $stmt->bindParam(':qual_plano', $this->qual_plano);
         if ($stmt->execute()) {
             return true;
         }

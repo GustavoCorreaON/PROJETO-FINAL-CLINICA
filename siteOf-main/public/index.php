@@ -13,17 +13,17 @@ $request = $_SERVER['REQUEST_URI'];
 echo $request;
 
 switch ($request) {
-    case '/siteOf-main/public/': // Rota para exibir o formulário de cadastro de paciente
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/': // Rota para exibir o formulário de cadastro de paciente
         $controller = new CpacienteController();
         $controller->showForm();
         break;
     
-    case '/siteOf-main/savePaciente/': // Rota para salvar um novo paciente
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente': // Rota para salvar um novo paciente
         $controller = new CpacienteController();
         $controller->savePaciente();
         break;
     
-    case '/siteOf-main/listPacientes/': // Rota para listar pacientes cadastrados
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/list': // Rota para listar pacientes cadastrados
         $controller = new CpacienteController();
         $controller->listPacientes();
         break;
