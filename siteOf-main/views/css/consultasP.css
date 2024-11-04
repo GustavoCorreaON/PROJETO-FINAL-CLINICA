@@ -1,0 +1,207 @@
+        body{
+          background-color: #ffffff;
+          overflow-x: hidden;
+        }
+        h1{color: white;
+        font-family: 'anticslab';
+        position: absolute;}
+
+        h2{color: rgb(255, 222, 222);
+        font-size: 1.55em;
+        font-family: 'anticslab';}
+
+        h4{color: black;
+        font-size: 2.0em;
+        font-weight: bold;
+        position: absolute;
+        font-family: 'anticslab';
+        margin-left: 50px;
+        margin-top: 100px;}
+
+        p{color: black;
+        font-size: medium;
+        font-family: 'anticslab';
+        font-weight: bold;;
+        margin-left: 50px;
+        margin-top: 155px;}
+
+        ul{font-size: 19px;
+        margin-left: 10px;}
+
+ input{
+      position: absolute;
+      width: 600px;
+      height: 28px;
+      border: none;
+      background: #EFA0AE;
+      border-radius: 20px;
+      font-family: 'anticslab'
+    }
+    #esferaP1{
+      background-color: #febdc9a1;
+      height: 612px;
+      position: absolute;
+      width: 648px;
+      margin-left: 850px;
+      margin-top: 160px;
+      border-radius: 4500px;
+  }
+  #esferaP2{
+      background-color: #febdc9a1;
+      height: 360px;
+      position: absolute;
+      width: 381px;
+      left: 37px;
+      margin-top: 280px;
+      border-radius: 4500px;}
+
+  #h1{
+     color: #000;
+     margin-top: 190px; 
+     margin-left: 30px;
+  }
+  #logo2{width: 350px;
+    height: 80px;}
+    
+  #logo{
+  background-color: #EFA0AE;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  margin-left: -8px;
+  position: absolute;}
+  
+  #pesquisa{
+  background-color: #c17884;
+  height: 50px;
+  width: 100%;
+  top: 80px;
+  margin-left: -8px;
+  position: absolute;}
+
+  #botao {
+    margin-left: 225px;
+    background-color: #c17884;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    top: 2.5px;
+    font-family: 'anticslab';
+    left: 5px;
+    text-align: center;
+    font-size: 1.35em;
+    color: rgb(255, 222, 222);
+    font-family: 'anticslab';
+    text-decoration: none;
+    border: none;
+    border-radius: 0px;
+  }
+  
+  #botao:hover {
+    background-color: #eea1ae;
+  }
+  #botao:active {
+    background-color: #d08995;
+  }
+          
+   
+    #retangulo {
+        width: 500px;
+        height: 38px;
+        border-radius: 12px;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        font-size: larger;
+        background-color: #EFA0AE;
+        margin-top: 250px; 
+        margin-left: 700px;
+        padding-top: 05px;
+         width: 300px; 
+         padding-left: 05px;}
+
+         #retangulo1{
+          width: 500px;
+          height: 38px;
+          border-radius: 12px;
+          position: absolute;
+          text-align: center;
+          text-decoration: none;
+          font-size: larger;
+          background-color: #EFA0AE;
+          width: 300px;
+          margin-top: 250px;
+          margin-left: 30px;
+          padding-top: 08px;
+          padding-left: 05px}
+         
+
+      #retangulo2 {
+        width: 1200px;
+        height: 550px;
+        border-radius: 0px 12px 12px 12px;
+        position: absolute;
+        text-align: center;
+        font-size: larger;
+        background-color: #BF808B;
+        margin-top: 388px;
+        margin-left: 32px;
+      }
+      .retangulo3 {
+        width: 300px;
+        height: 450px;
+        border-radius: 12px;
+        position: absolute;
+        text-align: start;
+        font-size: larger;
+        background-color: #F1EBEB;
+        margin-top: 80px;
+      }
+      .retangulo4{
+        width: 500px;
+        height: 38px;
+        border-radius: 20px;
+        position: absolute;
+        text-align: center;
+        font-size: larger;
+        background-color: #EFA0AE;
+        padding-top: 05px;
+        width: 300px; 
+        padding-left: 05px;}
+
+      #ates{position: absolute;
+         top:25px;
+         left: 855px;}
+        
+    #rem{position: absolute;
+       top:25px;
+       left: 465px;}
+
+      #r3{margin-left: 860px;}
+
+      #c1{margin-left: 90px;}
+
+      #cond{position: absolute;
+         top:25px;
+         left: 85px;}
+
+      #remedi{margin-left: 470px;}
+     
+      #seta{margin-top: 355px;
+         margin-left: 295px;
+          position: absolute;}
+      #data{
+        margin-top: 350px;
+        margin-left: 32px;
+        width: 300px;
+        height: 42px;
+        background-color: #EFA0AE;
+        border-radius: 12px 12px 0px 0px;
+        font-size: large;
+        text-align: start;
+      }
+      #data::before{
+        content: 'Consultas: ';
+      }
+
+      

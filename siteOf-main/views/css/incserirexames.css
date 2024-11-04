@@ -1,0 +1,234 @@
+h1 
+{color: white;
+position: relative;
+font-family: 'anticslab';}
+h2
+{color: rgb(255, 222, 222);
+font-size: 1.55em;
+font-family: 'anticslab';
+}
+h3{color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-family: 'anticslab';}
+
+p{color: rgb(0, 0, 0);
+    font-size: 0.95em;
+    font-family: 'anticslab';}
+#bola1{position: absolute;
+    width: 511px;
+    height: 511px;
+    left: 1030px;
+    top: 290px;
+    border-radius: 100%;
+    background: rgba(255, 217, 224, 0.63);}
+
+    #bola2{
+        position: absolute;
+        width: 611px;
+        height: 611px;
+        left: 0px;
+        top: 90px;
+        border-radius: 100%;
+        background: rgba(255, 217, 224, 0.63);}
+
+    #salvar {
+        display: inline-block;
+        background-color: #EFA0AE;
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        top: 700px;
+        left: 1400px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: small;
+        text-decoration: none;}
+        #salvar:hover {background-color: #eda8b4;}
+      #salvar:active {background-color: #ef96a6;}
+
+      #sim {
+        display: inline-block;
+        background-color: #EFA0AE;
+        width: 120px;
+        height: 33px;
+        position: absolute;
+        top: 660px;
+        left: 150px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: small;
+        text-decoration: none;}
+        #sim:hover {background-color: #eda8b4;}
+      #sim:active {background-color: #ef96a6;}
+
+      #nao {
+        display: inline-block;
+        text-align: center;
+        background-color: #EFA0AE;
+        width: 120px;
+        height: 33px;
+        position: absolute;
+        top: 660px;
+        left: 350px;
+        border-radius: 30px;
+        font-size: small;
+        text-decoration: none;}
+        #nao:hover {background-color: #eda8b4;}
+      #nao:active {background-color: #ef96a6;}
+
+    #espaco{
+        height:80px;
+        margin-top: 700px;}
+
+    input{
+        position: absolute;
+        width: 450px;
+        height: 33px;
+        margin: 0px;
+        background: #EFA0AE;
+        text-align: start;
+        border-radius: 20px;}
+#prescricao::placeholder{
+  position: absolute;
+        top: 10px; 
+        left: 10px;
+}
+
+   
+    #texto{
+      position: absolute;
+      top: 40px;
+      left: 20px;}
+
+    #especi{
+      position: relative;
+      font-family: 'anticslab';
+      font-size: 10px;
+      margin-top: 610px;}
+
+      #logo2{width: 350px;
+        height: 80px;}
+        
+      #logo{
+      background-color: #EFA0AE;
+      height: 80px;
+      width: 100%;
+      top: 0px;
+      margin-left: -8px;
+      position: absolute;}
+      
+      #pesquisa{
+        background-color: #c17884;
+        height: 50px;
+        width: 100%;
+        top: 80px;
+        margin-left: -8px;
+        position: absolute;}
+      
+ 
+
+        #botao {
+          margin-left: 40px;
+          background-color: #c17884;
+          width: 280px;
+          height: 45px;
+          position: relative;
+          top: 2.5px;
+          font-family: 'anticslab';
+          left: 78px;
+          text-align: center;
+          font-size: 1.40em;
+          color: rgb(255, 222, 222);
+          font-family: 'anticslab';
+          text-decoration: none;
+          border: none;
+          border-radius: 0px;
+        }
+        
+        #botao:hover {
+          background-color: #eea1ae;
+        }
+        #botao:active {
+          background-color: #d08995;
+        }
+#no1{
+  position: absolute; 
+  top: 132px; 
+  margin-left: 100px;
+}
+#no2{
+  position: absolute;
+  top: 180px; 
+  margin-left: 100px;
+}
+
+#a1{
+  position: absolute;
+   top: 220px; 
+  margin-left: 100px;
+}
+#a2{
+  position: absolute;
+  top: 268px; 
+  margin-left: 100px;
+}
+
+#exf1{
+  position: absolute; 
+  top: 185px; 
+  margin-left: 940px;
+}
+#exf{
+  position: relative;
+  margin-top: 05px; 
+  left: 5px;
+}
+#exf2{
+  position: absolute;
+  top: 150px;
+  left: 940px;
+}
+
+
+#dex1{
+  position: absolute;
+   top: 308px;
+   margin-left: 100px;
+}
+#dex2{
+  position: absolute; 
+  width: 150px; 
+  height: 25px; 
+  top: 348px; 
+  margin-left: 100px;
+}
+
+#dtex1{
+  position: absolute; 
+  top: 400px;
+   margin-left: 620px;
+}
+#idtex1{
+   position: absolute;
+   top: 450px;
+   margin-left: 100px;
+}
+#idtex2{
+  position: absolute; 
+  height: 200px; 
+  top: 500px;
+   margin-left: 100px;
+}
+
+#iime{
+   position: absolute; 
+  top: 450px;
+   margin-left:
+   940px;
+}
+#iime2{
+  position: absolute; 
+  height: 200px; 
+  top: 500px;
+   margin-left: 940px;
+}

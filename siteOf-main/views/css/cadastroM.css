@@ -1,0 +1,107 @@
+body{
+  background-color: #F3BD72;
+overflow-x: hidden;}
+p{color: rgb(0, 0, 0);
+  font-size: 0.95em;
+ }
+input{
+position: absolute;
+width: 600px;
+height: 28px;
+background: #FFFFFF;
+border-radius: 20px;
+}
+#voltar {
+    display: inline-block;
+    background-color: #EFA0AE;
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+    #voltar:hover {background-color: #EFA0AE;}
+  #voltar:active {background-color: #EFA0AE;}
+  #M {
+    display: inline-block;
+    background-color: #EFA0AE;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+  #salvar {
+    display: inline-block;
+    background-color: #EFA0AE;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 700px;
+    left: 1400px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+    #salvar:hover {background-color: #EFA0AE;}
+  #salvar:active {background-color: #EFA0AE;}
+  #bola1{
+    background-color: #EFA0AE;
+    height: 555px;
+    border-radius: 50%;
+    top: 200px;
+    width: 37%;
+    margin-left: 0px;
+    position:absolute;}
+    #bola2{
+        background-color: #EFA0AE;
+        height: 405px;
+        border-radius: 50%;
+        top: 0px;
+        width: 27%;
+        margin-left: 1000px;
+        position:absolute;}
+    #informa{
+      position: absolute;
+      margin-top: 600px;
+      left: 500px;
+      }
+
+#np{position: absolute; top: 100px; margin-left: 80px;}
+#npi{top: 135px; margin-left: 75px;}
+
+#ncrm{position: absolute; top: 160px; margin-left: 80px;}
+#ncrmi{top: 195px; margin-left: 75px}
+
+#esp{position: absolute; top: 220px; margin-left: 80px;}
+#espi{top: 255px; margin-left: 75px;}
+
+#cpf{position: absolute; top: 280px; margin-left: 80px;}
+#cpfi{top: 315px; margin-left: 75px;}
+
+#email{position: absolute; top: 340px; margin-left: 80px;}
+#emaili{top: 375px; margin-left: 75px;}
+
+#senha{position: absolute; top: 400px; margin-left: 80px;}
+#senhai{top: 435px; margin-left: 75px;}
+
+#dtna{position: absolute; top: 460px; margin-left: 80px}
+#dtnai{width: 150px; height: 25px; top: 495px; margin-left: 75px;}
+
+#cremail{position: absolute; top: 100px; margin-left: 770px;}
+#cremaili{top: 145px; margin-left: 770px;}
+
+#coemail{position: absolute; top: 195px; margin-left: 770px;}
+#coemaili{top: 240px; margin-left: 770px;}
+
+#crse{position: absolute; top: 290px; margin-left: 770px;}
+#crsei{top: 335px; margin-left: 770px;}
+
+#cose{position: absolute; top: 385px; margin-left: 770px;}
+#cosei{top: 430px; margin-left: 770px;}

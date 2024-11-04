@@ -1,0 +1,219 @@
+    body{overflow: hidden;}
+    h1{
+        color: white;
+        position: relative;
+        font-family: 'anticslab';}
+    h2{
+        color: rgb(255, 222, 222);
+        font-size: 1.55em;
+        font-family: 'anticslab';}
+    p{
+        margin-bottom: 0px;}
+
+
+    input{
+        position: absolute;
+        width: 450px;
+        height: 33px;
+        margin: 0px;
+        border: none;
+        background: #EFA0AE;
+        border-radius: 20px;}
+
+    textarea{
+        height: 150px;
+        width: 450px;
+        background: #EFA0AE;
+        border-radius: 20px;
+        resize: none;
+        border: none;}
+
+    #bola1{
+        background-color: #ffd9e0b7;
+        height: 405px;
+        border-radius: 50%;
+        top: 0px;
+        width: 27%;
+        font-family: 'anticslab';
+        margin-left: 0px;
+        position:absolute;}
+    #bola2{
+        background-color: #FFD9E0B7;
+        height: 405px;
+        border-radius: 50%;
+        top: 170px;
+        width: 27%;
+        margin-left: 1100px;
+        font-family: 'anticslab';
+        position:absolute;}
+     #bola3{     
+        background-color: #FFD9E0B7;
+        height: 405px;
+        border-radius: 50%;
+        top: 350px;
+        width: 27%;
+        margin-left: 500px;
+        position:absolute;}
+        
+    #Nome{
+        position: absolute;
+        top: 70px;
+        margin-left:175px}
+    #cart{
+        position: absolute;
+        top: 130px;
+        margin-left:175px}
+    #dataH{
+        position: absolute;
+        top: 190px;
+        margin-left:175px}
+    #q{
+        position: absolute;
+        top: 310px;
+        margin-left:175px}
+    #sin{
+        position: absolute;
+        top: 250px;
+        margin-left:175px}
+    #pre{
+        position: absolute;
+        top: 430px;
+        margin-left:175px}
+    #med{
+        position: absolute;
+        top: 490px;
+        margin-left:175px}
+    #InSi{
+        position: absolute;
+        top: 190px;
+        margin-left: 300px;}
+    #indor{
+        position: absolute;
+        margin-top: 280px;
+        margin-left:175px}
+    #int{
+        position: absolute;
+        margin-top: 325px;
+        margin-left:175px}
+
+    #deate{position: absolute;
+        margin-top: -25px;
+        margin-left: 10px;
+        
+    }
+    #dataU{
+        position: relative;
+        margin-top: 0px;
+        margin-right:175px;}
+    #Uq{
+        position: relative;
+        margin-top: 40px;
+        margin-right:175px;}
+    
+    #Ale{
+        position: relative;
+        top: 25px;
+        margin-right:175px;}
+
+     #det{
+        position: relative;
+        top: 50px;
+        margin-right:175px;
+
+        
+    }
+    #ates{
+        position: relative;
+        top: 50px;
+        margin-left: 225px;}
+
+    #teste{
+        margin-left: 900px;
+        top: 80px;
+        position: absolute;
+        }
+
+.radio-container {
+    margin-bottom: 10px;
+}
+
+.radio-container label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 6px 10px;
+    background-color: #EFA0AE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-container input[type="radio"]:checked + label {
+    background-color: #e36f84;
+}
+
+#prescricao::placeholder{
+position: absolute;
+    top: 10px; 
+    left: 10px;
+}
+#logo2{width: 350px;
+    height: 80px;}
+    
+  #logo{
+  background-color: #EFA0AE;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  margin-left: -8px;
+  position: absolute;}
+  
+  #pesquisa{
+  background-color: #c17884;
+  height: 50px;
+  width: 100%;
+  top: 80px;
+  margin-left: -8px;
+  position: absolute;}
+
+  #botao {
+    margin-left: 40px;
+    background-color: #c17884;
+    width: 280px;
+    height: 45px;
+    position: relative;
+    top: 2.5px;
+    font-family: 'anticslab';
+    left: 78px;
+    text-align: center;
+    font-size: 1.40em;
+    color: rgb(255, 222, 222);
+    font-family: 'anticslab';
+    text-decoration: none;
+    border: none;
+    border-radius: 0px;
+  }
+  
+  #botao:hover {
+    background-color: #eea1ae;
+  }
+  #botao:active {
+    background-color: #d08995;
+  }
+
+  #salvar {
+    display: inline-block;
+    background-color: #EFA0AE;
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 570px;
+    left: 1400px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+    #salvar:hover {background-color: #EFA0AE;}
+  #salvar:active {background-color: #EFA0AE;}
