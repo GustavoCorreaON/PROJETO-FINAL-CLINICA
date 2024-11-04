@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <?php
 
 require_once '../PROJETO-FINAL-CLINICA/ProjetoClinica/config/conexao.php';

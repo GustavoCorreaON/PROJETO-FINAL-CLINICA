@@ -18,25 +18,24 @@
         <a href="cadastro-g.html"><div id="voltar">
             <p>voltar</p>
         </div></a>
-        <div id="M"><p> Paciente </p> </div>
-        <a href="homePaciente.html"><div id="salvar"> <p> Salvar</p></div></a>
+        <div id="P"><p> Paciente </p> </div>
+        
     <div id="bola2"></h5></div>
     <div id="informa"><table>
        </table></div>
 </head>
 <body>
-    
+    <form action="/PROJETO-FINAL-CLINICA/ProjetoClinica/Cpaciente" method= "POST" >
+        <input type="submit" value="Salvar" id="salvar">
        <h1 id="infp" name = "" >Informação do paciente</h1>
        <h1 id="infr">Informação do responsavel</h1>
 
        <p id="np" name = "nomedopaciente" >Nome do paciente:</p>
        <input id="npin" type="text">
 
-<<<<<<< HEAD
        <p id="ncrm">Numero do CPF:</p>
-=======
+
        <p id="ncrm" name = "cpfdopaciente" >Numero do CPF:</p>
->>>>>>> ea103fe4ae06535e725a004e69f5e3f4656fdb3d
        <input id="ncrmi" type="text" placeholder="Apenas números">
 
        <p id="ncon" name = "numeroparacontato" >Numero para contato:</p>
@@ -82,7 +81,8 @@
             <option value="valor1">Tenho</option>
             <option value="valor2">Não tenho</option>
         </select>
-
+        
+</form>
 
 </body>
 </html>
