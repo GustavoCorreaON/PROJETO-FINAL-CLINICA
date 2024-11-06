@@ -19,46 +19,44 @@
             <p>voltar</p>
         </div></a>
         <div id="M"><p> Médico </p> </div>
-        <a href="homeMedico.html"><div id="salvar"> <p> Salvar</p></div></a>
+        
     <div id="bola2"></h5></div>
     <div id="informa"><table>
        </table></div>
 </head>
 <body>
-    
+<form action="/Projeto_SP_Medical_Group_Final/siteOf-main/Cmedico" method= "POST" >
 
-       <p id="np" name = "nomecompleto" >Nome completo:</p>
-       <input id="npi" type="text">
+    <input type="submit" value="Salvar" id="salvar">
+
+        <p id="np" name = "nomecompleto" >Nome completo:</p>
+       <input id="npi" name="nome_completo" type="text">
 
        <p id="ncrm" name = "numerocrm" >Numero do CRM:</p>
-       <input id="ncrmi"type="text" placeholder="Apenas números">
+       <input id="ncrmi"type="text" name="crm" placeholder="Apenas números">
 
        <p id="esp" name = "especializacao" >Especialização:</p>
-       <input id="espi" type="text">
+       <input id="espi" name="especializacao" type="text">
 
        <p id="cpf" name = "cpf" >CPF:</p>
-       <input id="cpfi" type="text">
+       <input id="cpfi" name="cpf" type="text">
 
        <p id="email" name = "email" >Email:</p>
-       <input id="emaili"  type="email" >
+       <input id="emaili" name="email"  type="email" >
 
        <p id="senha" name = "senha" >Senha:</p>
-       <input id="senhai"  type="password">
+       <input id="senhai" name="senha"  type="password">
        
        <p id="dtna" name = "datanascimento" >Data de nascimento:</p>
-       <input id="dtnai" type="date">
+       <input id="dtnai" name="data_nascimento" type="date">
        
        <p id="cremail" name = "emailclinica" >Crie um email para clínica:</p>
-       <input id="cremaili" type="email">
+       <input id="cremaili" name="email_clinica" type="email">
 
-       <p id="coemail" name = "confiremailclinica" >Confirme seu email:</p>
-       <input id="coemaili" type="email">
+       <p id="coemail" name = "senha" >Crie uma senha para clinica:</p>
+       <input id="coemaili" name="senha_clinica" type="password">
 
-       <p id="crse" name = "senhaclinica" >Crie uma senha para clínica:</p>
-       <input id="crsei" type="password">
-       
-       <p id="cose" name = "confirsenhaclinica" >Confirme sua senha:</p>
-       <input id="cosei"  type="password">
-       
+
+</form>
 </body>
 </html>
