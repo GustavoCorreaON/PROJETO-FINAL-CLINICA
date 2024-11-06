@@ -7,6 +7,8 @@ error_reporting(E_ALL);
 
 // Inclui o controlador de pacientes
 require_once '../controllers/controllerCP.php';
+require_once '../controllers/controllerCM.php';
+require_once '../controllers/controllerCadasAdm.php';
 
 // Lógica de roteamento
 $request = $_SERVER['REQUEST_URI'];
@@ -27,6 +29,16 @@ switch ($request) {
         $controller = new CpacienteController();
         $controller->listPacientes();
         break;
+
+        
+    case 'PROJETO-FINAL-CLINICA/ProjetoClinica/siteOf-main/public':
+            $controller = new CadastroAdm();
+            $controller->showForm();
+            break;
+    case 'PROJETO-FINAL-CLINICA/saveAdm':
+            $controller = new CadastroAdm();
+            $controller->listAdm();
+            break;
     
     default:
         http_response_code(404);
