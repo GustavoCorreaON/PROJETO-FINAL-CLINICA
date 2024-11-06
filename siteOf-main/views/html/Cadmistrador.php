@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>medical group</title>
     <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/cadastroA.css">
+    <link rel="stylesheet" href="../views/css/cadastroA.css">
     <style>
       @font-face {
           font-family: 'anticslab';
@@ -19,7 +19,6 @@
             <p>voltar</p>
         </div></a>
         <div id="M"><p> Admistrador </p> </div>
-        <a href="homeA.html"><div id="salvar"> <p> Salvar</p></div></a>
     <div id="bola2"></h5></div>
     <div id="informa"><table>
        </table></div>
@@ -27,25 +26,22 @@
 </head>        
 <body>
     
-       <form method="POST" action="/PROJETO-FINAL-CLINICA/saveAdm">
+<form action="/Projeto_SP_Medical_Group_Final/siteOf-main/Cadmistrador" method= "POST" >
+
+        <input type="submit" value="Salvar" id="salvar">
+
            <p id="nc" name="nomecompleto">Nome completo:</p>
-           <input id="nci"  type="text" placeholder="">
+           <input id="nci" name="nome_completo" type="text" placeholder="">
            <p id="cpf" name="cpf">CPF:</p>
-           <input id="cpfi" type="text" placeholder="Apenas números">
+           <input id="cpfi" type="text" name="cpf" placeholder="Apenas números">
            <p id="email" name="email">Email:</p>
-           <input id="emaili" type="text" placeholder="">
-           
+           <input id="emaili" name="email" type="text" placeholder="">
            <p id="cremail" name="emailclinica">Crie um email para clínica:</p>
-           <input id="cremaili" type="text" placeholder="">
-           <p id="coema" name="confirmeemailclinica">Confirme seu email:</p>
-           <input id="coemai"  type="text" placeholder="">
-           <p id="crse" name="senhaclinica">Crie uma senha para clínica:</p>
-           <input id="crsei" type="password" placeholder="">
-           <p id="cose" name="confirmesenhaclinica">Confirme sua senha:</p>
-           <input id="cosei"  type="password" placeholder="">
-           
+           <input id="cremaili" name="email_clinica" type="text" placeholder="">
+           <p id="coema" name="confirmeemailclinica">Crie uma senha para clinica:</p>
+           <input id="coemai"  name="senha_clinica" type="password" placeholder="">
            <p id="dtna" name="datanascimento">Data de nascimento:</p>
-            <input id="dtnai"  type="date">
+            <input id="dtnai" name="data_nascimento" type="date">
        </form>
        
 </body>

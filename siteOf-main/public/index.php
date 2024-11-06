@@ -5,10 +5,10 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Inclui o controlador de pacientes
+// Inclui o controlador dos cadastros
 require_once '../controllers/controllerCP.php';
 require_once '../controllers/controllerCM.php';
-
+require_once '../controllers/controllerCADM.php';
 
 // Lógica de roteamento
 $request = $_SERVER['REQUEST_URI'];
@@ -30,7 +30,7 @@ switch ($request) {
         $controller->listPacientes();
         break;
 
-    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasM': // Rota para exibir o formulário de cadastro de paciente
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasM':
         $controller = new CmedicoController();
         $controller->showCM();
         break;
@@ -44,9 +44,26 @@ switch ($request) {
         $controller = new CmedicoController();
         $controller->listMedicos();
         break;
+
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasADM':
+        $controller = new CadmistradorController();
+        $controller->showCADM();
+        break;
+    
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cadmistrador': 
+        $controller = new CadmistradorController();
+        $controller->saveAdmistrador();
+        break;
+            
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cadmistrador/list': 
+        $controller = new CadmistradorController();
+        $controller->listAdmistradores();
+        break;
     
     default:
         http_response_code(404);
         echo "Página não encontrada.";
         break;
+    
 }
