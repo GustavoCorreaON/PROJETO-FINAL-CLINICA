@@ -33,7 +33,7 @@ class CadastroAdm {
 
 
         if($adm->save()){
-            header(header: 'Location /');//redireciona para a página de listagem
+            header(header: 'Location ');//redireciona para a página de listagem
         }else{
             echo "Erro";
         }
@@ -44,6 +44,6 @@ public function listAdm(){
     $adm = new Salvar();
     $adm = $adm->getAll();
 
-    require_once '../views/';
+    require_once '../views/html/Cadministrador.html';
 }
 }
