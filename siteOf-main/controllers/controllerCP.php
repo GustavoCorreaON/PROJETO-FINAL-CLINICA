@@ -3,7 +3,7 @@
 require_once '../model/modelCP.php';
 
 class CpacienteController {
-    public function showForm() {
+    public function showCP() {
         // Exibe o formulário de cadastro de pacientes
         require_once '../views/html/Cpaciente.php';
     }
