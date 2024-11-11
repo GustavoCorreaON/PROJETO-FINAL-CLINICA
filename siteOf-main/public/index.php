@@ -61,6 +61,11 @@ switch ($request) {
         $controller->listAdmistradores();
         break;
     
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Lpaciente/';
+        $controller = new LpacienteController();
+        $controller->showLP();
+        break;
+    
     default:
         http_response_code(404);
         echo "Página não encontrada.";
