@@ -29,6 +29,11 @@ switch ($request) {
         $controller = new CpacienteController();
         $controller->listPacientes();
         break;
+        
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/home': // Rota para listar pacientes cadastrados
+        $controller = new CpacienteController();
+        $controller->homePacientes();
+        break;
 
     case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasM':
         $controller = new CmedicoController();

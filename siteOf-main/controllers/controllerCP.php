@@ -44,7 +44,7 @@ class CpacienteController {
 
         if ($paciente->cadastrar()) {
             // Redireciona para a página de listagem (você pode implementar isso)
-            header('Location: /Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/list');
+            header('Location: /Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/home');
             // header('Location: /meu_projeto/listar-pacientes'); // Exemplo de redirecionamento
         } else {
             echo "Erro ao cadastrar o paciente!";
@@ -57,5 +57,10 @@ class CpacienteController {
 
     // Exibe a lista de pacientes (implemente a view correspondente)
     require_once '../views/html/Cpaciente_list.php'; // Crie essa view para listar os pacientes
+}
+public function homePacientes() {
+
+        // Exibe a lista de pacientes (implemente a view correspondente)
+    require_once '../views/html/homePaciente.html'; // Crie essa view para listar os pacientes
 }
 }

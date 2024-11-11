@@ -125,5 +125,7 @@ h1{
 #sim{position: absolute; top: 180px; margin-left: 340px;}
 #simi{top: 225px; width: 327px; margin-left: 340px;}
 
-#p{top: 140px; position: absolute; margin-left: 340px;}
+#pt{top: 120px; position: absolute; margin-left: 340px;}
+
+#plano{position: relative; top: 155px; margin-left: 485px;}
 
