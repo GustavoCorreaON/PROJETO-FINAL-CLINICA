@@ -96,6 +96,8 @@ p{color: rgb(0, 0, 0);
         #botao:active {
           background-color: #d08995;
         }
-        .table {
-          border: #d08995;
+        .td {
+          background-color: #c17884;
+          width: 280px;
+          height: 45px;
       }
