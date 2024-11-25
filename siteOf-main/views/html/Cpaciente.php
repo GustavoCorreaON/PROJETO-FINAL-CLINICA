@@ -74,8 +74,8 @@
         <p id="sim">Se sim, qual:</p>
         <input id="simi" name="qual_plano" type="text">
 
-        <p id="p">Você tem nosso plano:</p>
-        <select name="plano_crianca" id="plano" style="position: absolute; top: 155px; margin-left: 485px;">
+        <p id="pt">Você tem nosso plano:</p>
+        <select name="plano_crianca" id="plano">
             <option value="Tenho">Tenho</option>
             <option value="Não tenho">Não tenho</option>
         </select>
