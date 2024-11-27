@@ -1,7 +1,3 @@
-h1 
-{color: white;
-position: relative;
-font-family: 'anticslab';}
 h2
 {color: rgb(255, 222, 222);
 font-size: 1.55em;
@@ -15,7 +11,7 @@ p{color: rgb(0, 0, 0);
     font-size: 0.95em;
     font-family: 'anticslab';}
 
-#bola1{position: absolute;
+#bola1{position: fixed;
     width: 511px;
     height: 511px;
     left: 1030px;
@@ -24,7 +20,7 @@ p{color: rgb(0, 0, 0);
     background: rgba(255, 217, 224, 0.63);}
 
     #bola2{
-        position: absolute;
+        position: fixed;
         width: 611px;
         height: 611px;
         left: 0px;
@@ -96,8 +92,35 @@ p{color: rgb(0, 0, 0);
         #botao:active {
           background-color: #d08995;
         }
-        .td {
-          background-color: #c17884;
-          width: 280px;
-          height: 45px;
-      }
+    
+      
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  table { position: absolute;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: pink;
+    border: 2px solid #d9534f;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #d9534f;
+  }
+  
+  th {
+    background-color: #f2b2b2;
+    font-weight: bold;
+  }
