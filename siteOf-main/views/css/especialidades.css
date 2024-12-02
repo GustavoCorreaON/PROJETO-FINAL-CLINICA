@@ -1,0 +1,138 @@
+      body{overflow-x: hidden;
+        background-color: #D060A6;}
+
+      #deslogar{
+        position: absolute; 
+        top: -95px; 
+        left: 1350px;
+        color: #000;
+        font-size: small;
+      }
+      #fotdes{position: absolute;
+        top: 5px; 
+        left: 1400px;
+      }
+        h1
+        {color: white;
+        font-family: 'anticslab';
+        position: relative;}
+        h2
+        {color: rgb(255, 222, 222);
+        font-size: 1.55em;
+        font-family: 'anticslab';
+        }
+        p{color:#f6c4cc;
+          font-size: 2.5em;
+          font-family: 'anticslab';
+          font-weight: bold;
+          position: absolute;
+        }
+        h4
+        {color: black;
+        font-size: 2.0em;
+        font-weight: bold;
+        position: absolute;
+        font-family: 'anticslab';
+        margin-left: 50px;
+        margin-top: 100px;}
+        p
+        {color: black;
+        font-size: medium;
+        font-family: 'anticslab';
+        font-weight: bold;;
+        margin-left: 50px;
+        margin-top: 155px;}
+        ul
+        {font-weight: bold;
+        color: black;
+        font-family: 'anticslab';
+        margin-top: 200px;
+        margin-left: 50px;}
+
+
+        #logo2{width: 350px;
+          height: 80px;}
+          
+        #logo{
+        background-color: #EFA0AE;
+        height: 80px;
+        width: 100%;
+        top: 0px;
+        margin-left: -8px;
+        position: absolute;}
+        
+        #pesquisa{
+        background-color: #c17884;
+        height: 50px;
+        width: 100%;
+        top: 80px;
+        margin-left: -8px;
+        position: absolute;}
+
+        #botao {
+          margin-left: 8px;
+          background-color: #c17884;
+          width: 200px;
+          height: 45px;
+          position: relative;
+          top: 2.5px;
+          font-family: 'anticslab';
+          left: 5px;
+          text-align: center;
+          font-size: 1.35em;
+          color: rgb(255, 222, 222);
+          font-family: 'anticslab';
+          text-decoration: none;
+          border: none;
+          border-radius: 0px;
+        }
+        
+        #botao:hover {
+          background-color: #eea1ae;
+        }
+        #botao:active {
+          background-color: #d08995;
+        }
+
+#texto
+{
+  top: 200px;
+  left: 10px;
+  font-family: 'anticslab';
+}
+
+#textoOrto
+{
+  top: 100px;
+  left: 10px;
+}
+#paragrafo {
+  margin-top: -100px;
+  left: 10px;
+  font-size: x-small;
+}
+
+#textoalergologia{
+  margin-top: 100px;
+  margin-left: 40px;
+  font-size: 1.5em;
+  font-family: 'anticslab';
+}
+
+#gastro{
+  left: 90px;
+   color: #000;
+  top: 35px;
+}
+#cuga{
+  position: absolute; 
+  top: 00px;
+}
+#trdo{
+  position: absolute;
+  top: 30px;
+}
+#listaga{
+  position: absolute; 
+  top: 10px;
+}

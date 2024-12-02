@@ -1,0 +1,255 @@
+body {overflow-x: hidden;}
+
+#bola1{
+  position: absolute;
+    width: 530px;
+    height: 530px;
+    left: 970px;
+    top: 230px;
+    border-radius: 100%;
+    background: rgba(255, 217, 224, 0.63);
+  }
+
+    #bola2{
+        position: absolute;
+        width: 630px;
+        height: 630px;
+        left: 0px;
+        top: 90px;
+        border-radius: 100%;
+        background: rgba(255, 217, 224, 0.63);
+      }
+
+   
+    #salvar {
+        display: inline-block;
+        background-color: #EFA0AE;
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        top: 700px;
+        left: 1400px;
+        border-radius: 30px;
+        border: 5px;
+        text-align: center;
+        font-size: small;
+        text-decoration: none;}
+        #salvar:hover {background-color: #eda8b4;}
+      #salvar:active {background-color: #ef96a6;}
+
+     
+
+    #espaco{
+        height:80px;
+        margin-top: 700px;}
+
+    input{
+        position: absolute;
+        width: 450px;
+        height: 33px;
+        margin: 0px;
+        background: #EFA0AE;
+        text-align: start;
+        border-radius: 20px;}
+#prescricao::placeholder{
+  position: absolute;
+        top: 10px; 
+        left: 10px;
+}
+
+    h1 
+    {color: white;
+    position: relative;
+    font-family: 'anticslab';}
+    h2
+    {color: rgb(255, 222, 222);
+    font-size: 1.55em;
+    font-family: 'anticslab';
+    }
+    h3{color: rgb(0, 0, 0);
+        font-size: 1.2em;
+        font-family: 'anticslab';}
+
+    p{color: rgb(0, 0, 0);
+        font-size: 0.95em;
+        font-family: 'anticslab';}
+    
+        #logo2{width: 350px;
+          height: 80px;}
+          
+        #logo{
+        background-color: #EFA0AE;
+        height: 80px;
+        width: 100%;
+        top: 0px;
+        margin-left: -8px;
+        position: absolute;}
+        
+        #pesquisa{
+        background-color: #c17884;
+        height: 50px;
+        width: 100%;
+        top: 80px;
+        margin-left: -8px;
+        position: absolute;}
+        
+         
+        #botao {
+          margin-left: 40px;
+          background-color: #c17884;
+          width: 280px;
+          height: 45px;
+          position: relative;
+          top: 2.5px;
+          font-family: 'anticslab';
+          left: 78px;
+          text-align: center;
+          font-size: 1.40em;
+          color: rgb(255, 222, 222);
+          font-family: 'anticslab';
+          text-decoration: none;
+          border: none;
+          border-radius: 0px;
+        }
+        
+        #botao:hover {
+          background-color: #eea1ae;
+        }
+        #botao:active {
+          background-color: #d08995;
+        }
+
+  #dthj{
+     position: absolute;
+     top: 82px; 
+    left: 100px;
+  }
+  #dth2{
+    position: absolute;
+    top: 130px;
+     left: 100px;
+  }
+  
+  #med{
+    position: absolute; 
+    top: 82px;
+    left: 750px;
+  }
+  #med2{
+    top: 130px; 
+    left: 750px;
+  }
+
+  #cd{
+    position: absolute; 
+    top: 240px; 
+    left: 130px;
+  }
+  #cd2{
+    top: 250px;
+    left: 230px;
+  }
+
+  #p1{
+    position: absolute; 
+    top: 5px; 
+    left: 10px;
+  }
+
+  #p1i{
+    width: 280px; 
+    height: 30px; 
+    top: 320px;
+    left: 99px;
+  }
+
+  
+  #p2i{
+    width: 280px;
+     height: 30px;
+     top: 390px;
+     left: 99px;
+  
+  }
+  #p3i{
+    width: 280px; 
+    height: 30px; 
+    top: 450px; 
+    left: 99px;
+  }
+
+  #p2{
+    position: absolute; 
+    top: 5px; 
+    left: -90px;
+  }
+  #i1{
+    width: 280px; 
+    height: 30px;
+     top: 520px; 
+    left: 99px;
+  }
+  #i2{
+    width: 280px; 
+    height: 30px;
+     top: 320px;
+     left: 600px;}
+
+  #i3{width: 280px; 
+    height: 30px;
+     top: 390px;
+     left: 600px;
+  }
+  #i4{
+    width: 280px; 
+    height: 30px;
+     top: 450px;
+     left: 600px;
+  }
+  #i5{
+    width: 280px; 
+    height: 30px;
+     top: 520px;
+     left: 600px;
+  }
+
+  #imgcalen{
+    position: absolute;
+     top: 220px;
+     left: 1030px;
+  }
+
+  #hp{
+    position: absolute; 
+    top: 600px;
+     left: 80px;
+  }
+
+  #i6{
+    width: 150px;
+    height: 25px; 
+    top: 663px; 
+    left: 120px;
+  }
+  #i7{
+    width: 150px;
+    height: 25px; 
+    top: 663px; 
+    left: 370px;
+  }
+  #cmc{
+    position: absolute;
+    margin-top: 622px; 
+    margin-left: 80px;
+  }
+  #fim{
+    position: absolute;
+    margin-top: 622px; 
+    margin-left: 340px;
+  }
+  .custom-input::before {
+    content: "Data da consulta: ";
+    color: white;
+    text-align: justify;
+  }
+
