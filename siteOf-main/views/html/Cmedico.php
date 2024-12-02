@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>medical group</title>
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/cadastroM.css">
+    <link rel="stylesheet" href="../views/css/cadastroM.css">
     <style>
       @font-face {
           font-family: 'anticslab';
@@ -15,7 +15,7 @@
         
 <div id="bola1">
     </div>
-        <a href="cadastro-g.html"><div id="voltar">
+        <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasG"><div id="voltar">
             <p>voltar</p>
         </div></a>
         <div id="M"><p> Médico </p> </div>

@@ -15,9 +15,7 @@
 
 <div id="bola1">
     </div>
-        <a href="cadastro-g.html"><div id="voltar">
-            <p>voltar</p>
-        </div></a>
+        <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasG"><div id="voltar"><p>voltar</p></div></a>
         <div id="P"><p> Paciente </p> </div>
         
     <div id="bola2"></h5></div>
@@ -26,11 +24,12 @@
 </head>
 <body>
     <form action="/Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente" method= "POST" >
-        <input type="submit" value="Salvar" id="salvar">
+        <input type="submit" value="Salvar" id="salvar"> 
+        
        <h1 id="infp" name = "" >Informação do paciente</h1>
        <h1 id="infr">Informação do responsavel</h1>
 
-       <p id="np" name = "" >Nome do paciente:</p>
+       <p id="np"  >Nome do paciente:</p>
        <input id="npin" name="nome_completo_crianca" type="text">
 
        <p id="ncrm" name = "cpfdopaciente" >Numero do CPF:</p>
@@ -74,8 +73,8 @@
         <p id="sim">Se sim, qual:</p>
         <input id="simi" name="qual_plano" type="text">
 
-        <p id="pt">Você tem nosso plano:</p>
-        <select name="plano_crianca" id="plano">
+        <p id="p">Você tem nosso plano:</p>
+        <select name="plano_crianca" id="plano" style="position: absolute; top: 155px; margin-left: 485px;">
             <option value="Tenho">Tenho</option>
             <option value="Não tenho">Não tenho</option>
         </select>

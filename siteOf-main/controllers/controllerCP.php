@@ -63,4 +63,58 @@ public function homePacientes() {
         // Exibe a lista de pacientes (implemente a view correspondente)
     require_once '../views/html/homePaciente.html'; // Crie essa view para listar os pacientes
 }
+
+
+
+    // Exibe o formulário de atualização
+    public function showUpdateForm($id) {
+        $paciente = new Paciente();
+        $pacienteInfo = $paciente->getById($id);
+        require_once '../views/html/Cpaciente_update.php';
+    }
+
+    // Atualiza um paciente
+    public function updatePaciente() {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $paciente = new Paciente();
+        $paciente->id = $_POST['id'];
+        $paciente->nome_responsavel = $_POST['nome_responsavel'];
+        $paciente->cpf_responsavel = $_POST['cpf_responsavel'];
+        $paciente->contato_responsavel = $_POST['contato_responsavel'];
+        $paciente->email_responsavel = $_POST['email_responsavel'];
+        $paciente->senha_responsavel = $_POST['senha_responsavel'];
+        $paciente->data_nascimento_responsavel = $_POST['data_nascimento_responsavel'];
+        $paciente->grau_parentesco = $_POST['grau_parentesco'];
+
+    // Dados da criança
+        $paciente->nome_completo_crianca = $_POST['nome_completo_crianca'];
+        $paciente->cpf_crianca = $_POST['cpf_crianca'];
+        $paciente->data_nascimento_crianca = $_POST['data_nascimento_crianca'];
+        $paciente->sexo_crianca = $_POST['sexo_crianca'];
+        $paciente->numero_carteirinha = $_POST['numero_carteirinha'];
+        $paciente->plano_crianca = $_POST['plano_crianca'];
+        $paciente->qual_plano = $_POST['qual_plano'];
+
+
+            if ($paciente->update()) {
+                header('Location: /Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/list');
+            } else {
+                echo "Erro ao atualizar o pacinete!";
+            }
+        }
+    }
+
+    // Exclui um paciente pelo ID
+    public function deletePaciente() {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $paciente = new Paciente();
+            $paciente->id = $_POST['id'];
+
+            if ($paciente->deleteById()) {
+                header('Location: /Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente/list');
+            } else {
+                echo "Erro ao excluir o paciente!";
+            }
+        }
+    }
 }

@@ -14,6 +14,8 @@ require_once '../controllers/controllerCADM.php';
 $request = $_SERVER['REQUEST_URI'];
 echo $request;
 
+//cadastros
+
 switch ($request) {
     case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasP': // Rota para exibir o formulário de cadastro de paciente
         $controller = new CpacienteController();
@@ -34,6 +36,25 @@ switch ($request) {
         $controller = new CpacienteController();
         $controller->homePacientes();
         break;
+
+        case '/Projeto_SP_Medical_Group_Final/siteOf-main/delete-paciente':
+            require_once '../controllers/controllerCP.php';
+            $controller = new CpacienteController();
+            $controller->deletePaciente();
+            break;
+    
+        case (preg_match('/\/Projeto_SP_Medical_Group_Final\/siteOf-main\/Cpaciente_update\/(\d+)/', $request, $matches) ? true : false):
+            $id = $matches[1];
+            require_once '../controllers/controllerCP.php';
+            $controller = new CpacienteController();
+            $controller->showUpdateForm($id);
+            break;
+    
+        case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente_update':
+            require_once '../controllers/controllerCP.php';
+            $controller = new CpacienteController();
+            $controller->updatePaciente();
+            break;
 
     case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasM':
         $controller = new CmedicoController();
@@ -65,10 +86,86 @@ switch ($request) {
         $controller = new CadmistradorController();
         $controller->listAdmistradores();
         break;
-    
-    default:
-        http_response_code(404);
-        echo "Página não encontrada.";
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/delete-adm':
+        require_once '../controllers/controllerCADM.php';
+        $controller = new CadmistradorController();
+        $controller->deleteAdmistrador();
+        break;
+
+    case (preg_match('/\/Projeto_SP_Medical_Group_Final\/siteOf-main\/Cadmistrador_update\/(\d+)/', $request, $matches) ? true : false):
+        $id = $matches[1];
+        require_once '../controllers/controllerCADM.php';
+        $controller = new CadmistradorController();
+        $controller->showUpdateForm($id);
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/Cadmistrador_update':
+        require_once '../controllers/controllerCADM.php';
+        $controller = new CadmistradorController();
+        $controller->updateAdmistrador();
+        break;
+
+// tudo para cima é cadastro
+
+// rotas do login e dos cadastro
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasG':
+        require_once '../views/html/cadastro-g.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/LoginG':
+        require_once '../views/html/loginG.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/Lpaciente':
+        require_once '../views/html/Lpaciente.html';
         break;
     
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/Ladimisnistrador':
+        require_once '../views/html/Ladmistrador.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/Lmedico':
+        require_once '../views/html/Lmedico.html';
+        break;
+
+// esqueci as senhas
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/esqueciasenha':
+        require_once '../views/html/esquecisenha.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/esqueciasenhaM':
+        require_once '../views/html/esquecisenham.html';
+        break;
+    
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/esqueciasenhaA':
+        require_once '../views/html/esquecisenhaA.html';
+        break;
+    
+    
+    
+    //rotas para homes
+    
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeG':
+        require_once '../views/html/homeGeral.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeAdministrador':
+        require_once '../views/html/homeA.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeMedico':
+        require_once '../views/html/homeMedico.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomePaciente':
+        require_once '../views/html/homePaciente.html';
+        break;
+
+ default:
+        http_response_code(404);
+        echo "Página não encontrada.";
+        break;    
 }

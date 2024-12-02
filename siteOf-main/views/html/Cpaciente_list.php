@@ -43,6 +43,15 @@
                         <td><?php echo htmlspecialchars($paciente['sexo_crianca']); ?></td>
                         <td><?php echo htmlspecialchars($paciente['numero_carteirinha']); ?></td>
                         <td><?php echo htmlspecialchars($paciente['plano_crianca']); ?></td>
+                        <td>
+            <!-- Link para atualizar o pac -->
+            <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/Cpaciente_update/<?php echo $paciente['id']; ?>">Atualizar</a>
+            <!-- Formulário para deletar o pac -->
+            <form action="/Projeto_SP_Medical_Group_Final/siteOf-main/delete-paciente" method="POST" style="display:inline;">
+                <input type="hidden" name="id" value="<?php echo $paciente['id']; ?>">
+                <button type="submit">Excluir</button>
+            </form>
+        </td>   
                     </tr>
                 <?php endforeach; ?>
             </tbody>

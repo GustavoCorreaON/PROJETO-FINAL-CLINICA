@@ -33,6 +33,15 @@
                         <td><?php echo htmlspecialchars($admistrador['data_nascimento']); ?></td>
                         <td><?php echo htmlspecialchars($admistrador['email_clinica']); ?></td>
                         <td><?php echo htmlspecialchars($admistrador['senha_clinica']); ?></td>
+                        <td>
+            <!-- Link para atualizar o adm -->
+            <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/Cadmistrador_update/<?php echo $admistrador['id_admistrador']; ?>">Atualizar</a>
+            <!-- Formulário para deletar o adm -->
+            <form action="/Projeto_SP_Medical_Group_Final/siteOf-main/delete-adm" method="POST" style="display:inline;">
+                <input type="hidden" name="id_admistrador" value="<?php echo $admistrador['id_admistrador']; ?>">
+                <button type="submit">Excluir</button>
+            </form>
+        </td>   
                     </tr>
                 <?php endforeach; ?>
             </tbody>

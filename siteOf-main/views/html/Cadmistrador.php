@@ -15,7 +15,7 @@
 
 <div id="bola1">
     </div>
-        <a href="cadastro-g.html"><div id="voltar">
+        <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/CadasG"><div id="voltar">
             <p>voltar</p>
         </div></a>
         <div id="M"><p> Admistrador </p> </div>
