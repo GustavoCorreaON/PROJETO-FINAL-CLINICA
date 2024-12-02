@@ -1,164 +1,163 @@
 body{overflow-x: hidden;}
-        h1
-        {color: white;
-        position: relative;
-        font-family: 'anticslab';}
-      h2
-        {color: rgb(255, 222, 222);
-        font-size: 1.2em;
-        font-family: 'anticslab';
-        }
-      p{color:#f6c4cc;
-          font-size: 2.5em;
-          font-weight: bold;
-          position: absolute;
-          font-family: 'anticslab';
-        }
-      #texto{
-          position: absolute;
-          top: 40px;
-          left: 20px;}
+h1
+{color: white;
+position: relative;
+font-family: 'anticslab';}
+h2
+{color: rgb(255, 222, 222);
+font-size: 1.2em;
+font-family: 'anticslab';
+}
+p{color:#f6c4cc;
+  font-size: 2.5em;
+  font-weight: bold;
+  position: absolute;
+  font-family: 'anticslab';
+}
+#texto{
+  position: absolute;
+  top: 40px;
+  left: 20px;}
 
-      #texto1{top: 40px;
-   margin-left: 20px;}
+#texto1{top: 40px;
+margin-left: 20px;}
 
-      #texto2{top: 70px;
-    margin-left: 20px;}
+#texto2{top: 70px;
+margin-left: 20px;}
 
-      #texto3{top: 105px;
-      margin-left: 20px;}
+#texto3{top: 105px;
+margin-left: 20px;}
 
-      #texto4{top: 140px;
-        margin-left: 20px;}
+#texto4{top: 140px;
+margin-left: 20px;}
 
-      #texto5{top: 170px;
-          margin-left: 20px;}
+#texto5{top: 170px;
+  margin-left: 20px;}
 
-      #especi{
-          position: relative;
-          font-family: 'anticslab';
-          font-size: 10px;
-          margin-top: 640px;}
+#especi{
+  position: relative;
+  font-family: 'anticslab';
+  font-size: 10px;
+  margin-top: 640px;}
 
-       
-          #logo2{width: 350px;
-            height: 80px;}
-            
-          #logo{
-          background-color: #EFA0AE;
-          height: 80px;
-          width: 100%;
-          top: 0px;
-          margin-left: -8px;
-          position: absolute;}
-          
-          #pesquisa{
-          background-color: #c17884;
-          height: 50px;
-          width: 100%;
-          top: 80px;
-          margin-left: -8px;
-          position: absolute;}
+
+  #logo2{width: 350px;
+    height: 80px;}
+    
+  #logo{
+  background-color: #EFA0AE;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  margin-left: -8px;
+  position: absolute;}
   
+  #pesquisa{
+  background-color: #c17884;
+  height: 50px;
+  width: 100%;
+  top: 80px;
+  margin-left: -8px;
+  position: absolute;}
 
-      .areas{
-      background-color: #C5027C;
-      height: 180px;
-      width: 110%;
-      top: 690px;
-      margin-left: -8px;
-      position: absolute;
+
+.areas{
+background-color: #C5027C;
+height: 180px;
+width: 110%;
+top: 690px;
+margin-left: -8px;
+position: absolute;
+}
+
+
+#rosa{
+background-color: #C5027C;
+height: 405px;
+border-radius: 100%;
+top: 545px;
+width: 26.5%;
+margin-left: 1098px;
+position:absolute;}
+
+#campanha{
+margin-top: 15px;
+margin-left: 17px;
+position:absolute;}
+
+#imgfundo{
+    background-color: black;
+    background-image: url(../img/site.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+
+#fla{
+height: 160px;
+width: 160px;
+top: -5px;
+left: 50px;
+position: relative;}
+
+#texGa{
+top: 770px;
+margin-left: 55px;
+position: relative;}
+
+#dino{
+height: 130px;
+width: 130px;
+top: -20px;
+margin-left: 150px;
+position: relative;}
+#texA{
+top: 732px;
+margin-left: 265px;
+position: relative;}
+
+#leao{
+height: 135px;
+width: 135px;
+top: -15px;
+margin-left: 150px;
+position: relative;}
+#texO{
+top: 695px;
+margin-left: 572px;
+position: relative;}
+
+#gol{
+height: 120px;
+width: 120px;
+top: 15px;
+margin-left: 150px;
+position: absolute;}
+
+#texP{
+top: 820px;
+margin-left: 870px;
+position: absolute;}
+
+    #botao {
+      margin-left: 40px;
+      background-color: #c17884;
+      width: 280px;
+      height: 45px;
+      position: relative;
+      top: 2.5px;
+      font-family: 'anticslab';
+      left: 78px;
+      text-align: center;
+      font-size: 1.40em;
+      color: rgb(255, 222, 222);
+      font-family: 'anticslab';
+      text-decoration: none;
+      border: none;
+      border-radius: 0px;
     }
-      
-
-      #rosa{
-      background-color: #C5027C;
-      height: 405px;
-      border-radius: 100%;
-      top: 465px;
-      width: 26.5%;
-      margin-left: 1098px;
-      position:absolute;}
-
-      #campanha{
-        margin-top: 15px;
-        margin-left: 17px;
-        position:absolute;}
-
-        #imgfundo{
-            background-color: black;
-            background-image: url(../img/site.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;}
-             
-             
-   #botao {
-     margin-left: 8px;
-     background-color: #c17884;
-     width: 200px;
-     height: 45px;
-     position: relative;
-     top: 2.5px;
-     font-family: 'anticslab';
-     left: 5px;
-     text-align: center;
-     font-size: 1.35em;
-     color: rgb(255, 222, 222);
-     font-family: 'anticslab';
-     text-decoration: none;
-     border: none;
-     border-radius: 0px;
-   }
-   
-   #botao:hover {
-     background-color: #eea1ae;
-   }
-   #botao:active {
-     background-color: #d08995;
-   }
-  
-
-
-      #fla{
-      height: 160px;
-      width: 160px;
-      top: -5px;
-      left: 50px;
-      position: relative;}
-      #texGa{
-        top: 820px;
-        margin-left: 55px;
-        position: relative;}
-
-      #dino{
-      height: 130px;
-      width: 130px;
-      top: -20px;
-      margin-left: 150px;
-      position: relative;}
-      #texA{
-        top: 782px;
-        margin-left: 265px;
-        position: relative;}
-
-      #leao{
-      height: 135px;
-      width: 135px;
-      top: -15px;
-      margin-left: 150px;
-      position: relative;}
-      #texO{
-        top: 745px;
-        margin-left: 572px;
-        position: relative;}
-
-      #gol{
-      height: 120px;
-      width: 120px;
-      top: 15px;
-      margin-left: 150px;
-      position: absolute;}
-      #texP{
-      top: 820px;
-      margin-left: 870px;
-      position: absolute;}
+    
+    #botao:hover {
+      background-color: #eea1ae;
+    }
+    #botao:active {
+      background-color: #d08995;
+    }
