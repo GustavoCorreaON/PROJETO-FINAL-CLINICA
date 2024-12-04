@@ -105,3 +105,18 @@ p{color: rgb(0, 0, 0);
           background-color: #f2b2b2;
           font-weight: bold;
         }
+
+        #voltar {
+          display: inline-block;
+          background-color: #CE8DDE;
+          width: 80px;
+          height: 35px;
+          position: absolute;
+          top: 50px;
+          left: 80px;
+          border-radius: 12px;
+          text-align: center;
+          font-size: small;
+          text-decoration: none;}
+          #voltar:hover {background-color: #CE8DDE;}
+          #voltar:active {background-color: #CE8DDE;}

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../views/css/buscarA.css">
 </head>
 <body>
+
+<a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeAdministrador"><div id="voltar"><p>voltar</p></div></a>
+
     <h1>Pacientes Cadastrados</h1>
 
     <?php if (empty($pacientes)): ?>
