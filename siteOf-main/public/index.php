@@ -188,6 +188,18 @@ switch ($request) {
         require_once '../views/html/homeMedico.html';
         break;
 
+
+        
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/Comedico':
+        require_once '../views/html/Comedico.html';
+        break;
+
+    case '/Projeto_SP_Medical_Group_Final/siteOf-main/public/cronograma':
+        require_once '../views/html/cronograma.html';
+        break;
+
+   
+
  default:
         http_response_code(404);
         echo "Página não encontrada.";
