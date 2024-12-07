@@ -1,0 +1,108 @@
+body{overflow-x: hidden;}
+h1
+{color: white;
+position: relative;
+ font-family: 'anticslab';}
+h2{color: rgb(255, 222, 222);}
+
+#logo2{width: 350px;
+    height: 80px;}
+    
+  #logo{
+  background-color: #EFA0AE;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  margin-left: -8px;
+  position: absolute;}
+  
+  #pesquisa{
+    background-color: #c17884;
+    height: 50px;
+    width: 100%;
+    top: 80px;
+    margin-left: -8px;
+    position: absolute;}
+
+#redes{
+    position: absolute;
+    font-size: 12px;
+    top: 200px;
+    left: 120px;
+}
+
+#imgfundo{
+    background-color: black;
+    background-image: url(../img/site.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+     
+   
+    #botao {
+      margin-left: 40px;
+      background-color: #c17884;
+      width: 280px;
+      height: 45px;
+      position: relative;
+      top: 2.5px;
+      font-family: 'anticslab';
+      left: 78px;
+      text-align: center;
+      font-size: 1.40em;
+      color: rgb(255, 222, 222);
+      font-family: 'anticslab';
+      text-decoration: none;
+      border: none;
+      border-radius: 0px;
+    }
+    
+    #botao:hover {
+      background-color: #eea1ae;
+    }
+    #botao:active {
+      background-color: #d08995;
+    }
+
+#imgw{
+  position: absolute;
+  top: 215px;
+  left: 80px;
+}
+#imgi{
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  }
+#imgt{
+  position: absolute;
+  top: 305px; 
+  left: 80px;
+}
+#imgf{
+  position: absolute; 
+  top: 345px; 
+  left: 80px;
+}
+
+#tc{
+  position: absolute; 
+  top: 120px; 
+  left: 120px
+}
+#loc{
+  position: absolute; 
+  top: 120px;
+  left: 900px;
+  }
+#imgca{
+  font-size: medium;
+  position: absolute;
+  top: 210px; 
+  left: 900px;
+  }
+#rua{
+  font-size: medium; 
+  position: absolute;
+  top: 170px;
+  left: 900px;
+  }

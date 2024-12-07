@@ -1,0 +1,85 @@
+body
+{background-color: #EDD1F5;
+overflow-x: hidden;}
+#voltar {
+    display: inline-block;
+    background-color: #CE8DDE;
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+    #voltar:hover {background-color: #CE8DDE;}
+  #voltar:active {background-color: #CE8DDE;}
+  #M {
+    display: inline-block;
+    background-color: #CE8DDE;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+  #salvar {
+    display: inline-block;
+    background-color: #CE8DDE;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 700px;
+    left: 1400px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;}
+    #salvar:hover {background-color: #CE8DDE;}
+  #salvar:active {background-color: #CE8DDE;}
+  #bola1{
+    background-color: #CE8DDE;
+    height: 555px;
+    border-radius: 50%;
+    top: 200px;
+    width: 37%;
+    margin-left: 0px;
+    position:absolute;}
+    #bola2{
+        background-color: #CE8DDE;
+        height: 405px;
+        border-radius: 50%;
+        top: 0px;
+        width: 27%;
+        margin-left: 1000px;
+        position:absolute;}
+    #informa{
+      position: absolute;
+      margin-top: 600px;
+      left: 500px;
+      }
+
+    h4{
+        margin-top: 400px;
+        margin-left: 450px;
+    }
+    h5{
+      margin-top: 90px;
+      margin-left: 450px;
+      font-family: 'anticslab';
+      font-size: larger;
+    }
+    input{
+      position: absolute;
+      margin-left: 450px;
+      width: 591px;
+      height: 28px;
+      background: #FFFFFF;
+      border-radius: 20px;
+    }
+
+    

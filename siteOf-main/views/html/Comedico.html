@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Group</title>
+    <link rel="shortcut icon" href="../views/img/logo.png" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'anticslab';
+            src: url(../../outros/MonoSpatial[1]\ \(1\).ttf) format('truetype');
+            font-weight: lighter;
+        }
+    </style>
+    <link rel="stylesheet" href="../views/css/comed.css">
+
+    <DIV id="bola1"></DIV>
+          <DIV id="bola2"></DIV>
+          <DIV id="bola3"></DIV>
+
+          <div id="logo">
+            <img id="logo2" src="../views/img/logo2.png" alt="">
+            <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeG"><P style="position: absolute; top: 45px; left: 1400px;color: #000; font-size: small;">deslogar</P> <img style="position: absolute; top: 5px; left: 1400px;" src="../views/img/perfil.png" alt=""></a>
+          </div> 
+    <img style="position: absolute; top: 5px; left: 1400px;" src="../views/img/perfil.png" alt="">
+  </a>
+</div> 
+        <div id="pesquisa">
+
+          <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeMedico">
+            <input id="botao" type="button" value="Home">
+          </a>
+  
+          <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/Comedico">
+            <input id="botao" type="button" value="Detalhamento das consultas">
+          </a>
+  
+          <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/cronograma">
+            <input id="botao" type="button" value="Cronograma">
+          </a>
+</head>
+<body style="overflow: hidden;">
+
+  <div id="teste">
+        <div id="dataU">
+          <p>Data da última consulta:</p>
+            <input type="date" style="width: 100px;">
+        </div>
+
+        <div id="Uq">
+          <p>Queixa da última consulta:</p>
+            <input type="text">
+        </div>
+
+        <div id="Ale">
+          <p>Alergias:</p>
+            <input type="text">
+        </div>
+
+        <div id="det">
+          <p>Detalhamento:</p>
+          <textarea cols="30" rows="5"></textarea>
+  </div>
+         
+    <div class="radio-container" id="ates">
+      <p>Houve atestado?</p>
+      <input type="radio" name="opcaosn" id="opcaos" value="opcaos">
+      <label for="opcaos">Sim</label>
+  
+      <input type="radio" name="opcaosn" id="opcaon" value="opcaon">
+      <label for="opcaon">Não</label>
+      </div>
+  
+        <span id="deate">
+          <p>Se sim, de quantos dias?</p>
+           <p>de:<input type="datetime-local" style="width: 150px; margin-top: -10px;"></p>
+           <p>até:<input type="datetime-local" style="width: 150px;"></p>
+        </span>
+      </div>
+
+
+    <span>
+        <div id="dataH">
+          <p>Data de hoje:</p>
+            <input  type="date" style="width: 100px;">
+        </div>
+
+        <div id="q">
+          <p>Queixa:</p>
+            <input type="text" >
+        </div>
+
+        <div id="sin">
+          <p>Sintomas:</p>
+            <input type="text">
+        </div>
+
+        <div id="Nome">
+          <p>Nome do paciente:</p>
+            <input type="text" placeholder="Use a inicial maiuscula">
+        </div>
+
+        <div id="pre">
+          <p>Prescrição:</p>
+            <input type="text">
+        </div>
+      
+        <div id="med">
+          <p>Medicamentos:</p>
+            <input type="text">
+        </div>
+
+        <div id="cart">
+          <p>N° da carteirinha Medical Group</p>
+            <input type="number">
+        </div>
+        
+        <div id="InSi">
+          <p>Inicio dos sintomas:</p>
+            <input type="date" style="width: 100px;">
+        </div>
+    </span>
+        
+        
+        
+    <div class="radio-container" id="int">
+         <p>Qual a Intensidade da dor:</p>
+        <input type="radio" name="opcao" id="opcao1" value="opcao1">
+        <label for="opcao1">1</label>
+
+        <input type="radio" name="opcao" id="opcao2" value="opcao2">
+        <label for="opcao2">2</label>
+
+        <input type="radio" name="opcao" id="opcao3" value="opcao3">
+        <label for="opcao3">3</label>
+
+        <input type="radio" name="opcao" id="opcao4" value="opcao4">
+        <label for="opcao4">4</label>
+
+        <input type="radio" name="opcao" id="opcao5" value="opcao5">
+        <label for="opcao5">5</label>
+
+        <input type="radio" name="opcao" id="opcao6" value="opcao6">
+        <label for="opcao6">6</label>
+
+        <input type="radio" name="opcao" id="opcao7" value="opcao7">
+        <label for="opcao7">7</label>
+
+        <input type="radio" name="opcao" id="opcao8" value="opcao8">
+        <label for="opcao8">8</label>
+
+        <input type="radio" name="opcao" id="opcao9" value="opcao9">
+        <label for="opcao9">9</label>
+
+        <input type="radio" name="opcao" id="opcao10" value="opcao10">
+        <label for="opcao10">10</label>
+    </div>
+  <a href="/Projeto_SP_Medical_Group_Final/siteOf-main/public/HomeMedico">
+    <div id="salvar"> 
+      <p> Salvar</p>
+    </div>
+  </a>
+</body>
+</html>
